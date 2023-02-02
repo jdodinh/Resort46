@@ -1,14 +1,15 @@
 <header>
-  <div class="nes-container is-rounded blue-border header">
+  <div class="header">
     <img src="images/output-onlinepngtools.png" alt="Logo" />
     <h1>
       <a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a>
     </h1>
-    {% if site.social %}
-      {% include social.html  %}
-    {% endif %}
   </div>
+  <div class="nes-container is-rounded green-border card"></div>
   {% if site.show_downloads %}
     {% include downloads.html %}
   {% endif %}
+    {% if site.social %}
+      {% include social.html  %}
+    {% endif %}
 </header>

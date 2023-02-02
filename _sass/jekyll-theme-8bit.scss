@@ -2,7 +2,7 @@
 @import 'rouge-github';
 
 body {
-  background-color: #fff;
+  background-color: #E735FF;
   font: 14px/1.5 'Noto Sans', Helvetica, Arial, sans-serif;
   color: #212529;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -101,7 +101,8 @@ hr {
 }
 
 header {
-  width: 540px;
+  padding-top: 50px;
+  width: 700px;
 }
 
 header img{
@@ -110,6 +111,11 @@ header img{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
+}
+
+header h1 a{
+  color: #fff;
+  text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 section {
@@ -144,6 +150,10 @@ footer {
 
 .nes-container.header {
   background-color: #E735FF;
+}
+
+.nes-container.card {
+  background-color: #5adb57;
 }
 
 .nes-container .nes-kirby {
@@ -227,7 +237,7 @@ footer {
 }
 
 .wrapper {
-  width: 540px;
+  width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -320,14 +330,14 @@ a:hover span.next::before {
   }
 }
 
-@media print, screen and (max-width: 540px) {
+@media print, screen and (max-width: 700px) {
 
   div.wrapper {
     width: auto;
   }
 
   header, footer {
-    width: 520px;
+    width: 700px;
   }
 
   section {
@@ -346,7 +356,7 @@ a:hover span.next::before {
   }
 }
 
-@media print, screen and (max-width: 540px) {
+@media print, screen and (max-width: 700px) {
   body {
     word-wrap: break-word;
   }
@@ -359,7 +369,7 @@ a:hover span.next::before {
 
   header, section, footer {
     margin: 0;
-    padding: 0 5px;
+    padding: 0 0px;
   }
 
   header p.view {
@@ -384,9 +394,6 @@ a:hover span.next::before {
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
-    padding: 0 15px 15px;
-  }
 
   header, section, footer {
     padding: 0;
