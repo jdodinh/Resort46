@@ -1,7 +1,6 @@
 title: Resort46
-description: A Jekyll theme inspired by classic 8bit games.
 remote_theme: julianolf/jekyll-theme-8bit
-logo: nes-kirby
+logo: resort
 show_downloads: true
 plugins:
  - jekyll-paginate

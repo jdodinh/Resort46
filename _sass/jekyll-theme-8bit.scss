@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 28px;
+  text-align: center;
 }
 
 p, ul, ol, table, pre, dl {
@@ -100,8 +101,15 @@ hr {
 }
 
 header {
-  width: 270px;
-  float: left;
+  width: 540px;
+}
+
+header img{
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 
 section {
@@ -135,7 +143,7 @@ footer {
 }
 
 .nes-container.header {
-  background-color: #58c7ff;
+  background-color: #E735FF;
 }
 
 .nes-container .nes-kirby {
@@ -219,8 +227,9 @@ footer {
 }
 
 .wrapper {
-  width: 860px;
-  margin: 0 auto;
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul.pagination {
@@ -304,22 +313,21 @@ a:hover span.next::before {
   padding: 1px 3px;
 }
 
+
 @media print, screen and (max-width: 1024px) {
   section {
     margin-top: 85px;
   }
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 540px) {
 
   div.wrapper {
     width: auto;
-    margin: 0;
   }
 
   header, footer {
-    width: 260px;
-    margin-left: 5px;
+    width: 520px;
   }
 
   section {
@@ -338,7 +346,7 @@ a:hover span.next::before {
   }
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 540px) {
   body {
     word-wrap: break-word;
   }

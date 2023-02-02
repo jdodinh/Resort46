@@ -1,4 +1,4 @@
-<p>
+<div class="logos">
   {% assign networks = "instagram,soundcloud" %}
 <!--  twitter,facebook,github,youtube,google,medium,twitch,reddit,whatsapp,gmail,linkedin,-->
   {% for entry in site.social %}
@@ -6,4 +6,4 @@
     <a href="{{ entry[1] }}" target="_blank"><i class="nes-icon {{ entry[0] }}"></i></a>
     {% endif %}
   {% endfor %}
-</p>
+</div>
