@@ -4,10 +4,17 @@
   <body>
     <div class="wrapper">
       {% include header.html %}
+      {% include card.html %}
 <!--      <section>-->
 <!--        {{ content }}-->
 <!--      </section>-->
 <!--      {% include footer.html %}-->
+      {% if site.show_downloads %}
+      {% include downloads.html %}
+      {% endif %}
+      {% if site.social %}
+      {% include social.html  %}
+      {% endif %}
     </div>
   </body>
 </html>

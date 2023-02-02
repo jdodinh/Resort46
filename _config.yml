@@ -1,7 +1,7 @@
 title: RESORT46
 remote_theme: julianolf/jekyll-theme-8bit
 logo: resort
-show_downloads: true
+show_downloads: false
 plugins:
  - jekyll-paginate
  - jekyll-seo-tag
