@@ -369,7 +369,7 @@ a:hover span.next::before {
 
   header, section, footer {
     margin: 0;
-    padding: 0 0px;
+    padding: 50px 0px;
   }
 
   header p.view {
@@ -396,7 +396,7 @@ a:hover span.next::before {
 @media print, screen and (max-width: 480px) {
 
   header, section, footer {
-    padding: 0;
+    padding: 50px 0 0;
   }
 }
 
